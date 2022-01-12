@@ -7,9 +7,18 @@
     box-sizing: border-box;
 }
 
+/*
+    Cores teste
+    ciano escuro - #5E918A
+    aqua claro - #85DED1
+    bege claro - #DEB47A
+    lilas escuro - #363E8F
+    lilas claro - #6F78DE
+*/
+
 body {
-    background-color: rgb(138, 43, 226);
-    height: 3200px;
+    background-color: none;
+    height: 3150px;
     font-family: Arial;
     
 }
@@ -24,7 +33,7 @@ img {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #fec63e;
+    background-color: #000000;
     z-index: 10;
     height: 100px;
 }
@@ -46,11 +55,11 @@ img {
     list-style: none;
     text-decoration: none;
     padding: 10px 0px 10px 0px;
-    color: black;
+    color: #ffffff;
 }
 
 .header_menu ul li :hover {
-    color: white;
+    color: #DEB57A;
 }
 
 /* Introdução */
@@ -67,15 +76,16 @@ img {
     background-size: cover;
     background-position-y: -30px;
     margin-top: 100px;
+    border-bottom: solid 6px black;
 }
 
 .introducao h1 {
     font-size: 40px;
-    color: #ffffff;
+    color: #000000;
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 110px;
     line-height: 80px;
     letter-spacing: 2px;
 }
@@ -122,8 +132,8 @@ h6 {
 }
 
 .btn:hover {
-    color: white;
-    border-color: white;
+    color: #2032f2;
+    border-color: #2032f2;
     font-weight: 800;
 }
 
@@ -133,7 +143,7 @@ h6 {
     padding-top: 50px;
     width: 900px;
     height: 550px;
-    /*background-color: blanchedalmond;*/
+    background-color: none;
 }
 
 .subtitulo {
@@ -156,8 +166,9 @@ h6 {
 }
 
 .produtos_lista li {
-    background-color: #fec63e;
+    background-color: #000000;
     height: 300px;
+    padding: 2px;
 }
 
 .produtos_lista li h3 {
@@ -166,13 +177,42 @@ h6 {
     letter-spacing: 1px;
     padding: 5px;
     font-size: 16px;
+    color: white;
 }
 
-.produtos-icone {
-    background-color: black;
+.produtos_lista li p {
+    color: white;
+    padding: 5px;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+}
+
+/*produtos-icones*/
+.armario {
+    background-image: url(/images/movel\(20\).jpeg);
     padding: 20px;
     height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
+.balcao {
+    background-image: url(/images/movel\(16\).jpeg);
+    padding: 20px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.guarda-roupa {
+    background-image: url(/images/movel\(9\).jpeg);
+    padding: 20px;
+    height: 200px;
+    background-position-y: -90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*fim-produtos-icones*/
 
 .call {
     padding-top: 40px;
@@ -209,6 +249,13 @@ ul li {
 .container .grid-8, .grid-16 {
     padding: 5px;
 } 
+
+.container .grid-8 {
+    background-image: url(/images/movel\(12\).jpeg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .port .btn {
     line-height: 100px;
