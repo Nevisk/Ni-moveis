@@ -168,7 +168,7 @@ h6 {
 .produtos_lista li {
     background-color: #000000;
     height: 300px;
-    padding: 2px;
+    padding: 0px;
 }
 
 .produtos_lista li h3 {
@@ -189,26 +189,25 @@ h6 {
 
 /*produtos-icones*/
 .armario {
-    background-image: url(/images/movel\(12\).jpeg);
-    padding: 20px;
+    background-image: none;
+    padding: none;
     height: 200px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .balcao {
-    background-image: url(images/movel\(16\).jpeg);
-    padding: 20px;
+    background-image: none;
+    padding: none;
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .guarda-roupa {
-    background-image: url(images/movel\(12-1\).jpeg);
-    padding: 20px;
+    background-image: none;
+    padding: none;
     height: 200px;
-    background-position-y: -90px;
     background-size: cover;
     background-repeat: no-repeat;
 }
