@@ -137,12 +137,12 @@ h6 {
     font-weight: 800;
 }
 
-/* Produtos */
+/* moveis */
 
-.produtos {
+.moveis {
     padding-top: 50px;
     width: 900px;
-    height: 550px;
+    height: 460px;
     background-color: none;
 }
 
@@ -165,13 +165,13 @@ h6 {
     margin: 15px auto;
 }
 
-.produtos_lista li {
+.moveis_lista li {
     background-color: #000000;
     height: 300px;
     padding: 0px;
 }
 
-.produtos_lista li h3 {
+.moveis_lista li h3 {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -180,14 +180,14 @@ h6 {
     color: white;
 }
 
-.produtos_lista li p {
+.moveis_lista li p {
     color: white;
     padding: 5px;
     letter-spacing: 0.5px;
     line-height: 15px;
 }
 
-/*produtos-icones*/
+/*moveis-icones*/
 .armario {
     background-image: none;
     padding: none;
@@ -211,7 +211,7 @@ h6 {
     background-size: cover;
     background-repeat: no-repeat;
 }
-/*fim-produtos-icones*/
+/*fim-moveis-icones*/
 
 .call {
     padding-top: 40px;
@@ -227,21 +227,21 @@ ul li {
     list-style: none;
 }
 
-/* Portfolio */
+/* projetos */
 
-.portfolio {
+.projetos {
     background-color: #522f79;
     height: 1070px;
 }
 
-.portfolio .container {
+.projetos .container {
     margin-top: 50px;
     padding-top: 50px;
     background-color: none;
     align-items: center;
 }
 
-.portfolio .container h2 {
+.projetos .container h2 {
     color: #000000;
 }
 
@@ -272,7 +272,7 @@ ul li {
     font-weight: 800;
 }
 
-.portfolio .container ul li:last-child {
+.projetos .container ul li:last-child {
     padding-top: 15px;
 }
 
