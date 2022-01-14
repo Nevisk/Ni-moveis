@@ -305,7 +305,7 @@ ul li {
 
 .qualidade .subtitulo {
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .qualidade .qualidade-lista li p {
@@ -396,8 +396,6 @@ ul li {
     height: 180px;
     text-align: center;
     margin: 0 auto;
-    clear: none;
-    float: none;
     border-bottom: solid 10px black;
 }
 
