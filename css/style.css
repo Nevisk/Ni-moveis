@@ -18,9 +18,8 @@
 
 body {
     background-color: none;
-    height: 3150px;
+    height: 3160px;
     font-family: Arial;
-    
 }
 
 img {
@@ -76,7 +75,7 @@ img {
     background-size: cover;
     background-position-y: -30px;
     margin-top: 100px;
-    border-bottom: solid 6px black;
+    border-bottom: solid 5px black;
 }
 
 .introducao h1 {
@@ -232,8 +231,8 @@ ul li {
 .projetos {
     background-color: #ffffff;
     height: 1250px;
-    border-top: solid 6px #00000041;
-    border-bottom: solid 6px #00000041;
+    border-top: solid 5px #00000041;
+    border-bottom: solid 5px #00000041;
 }
 
 .projetos .container {
@@ -310,7 +309,7 @@ ul li {
 }
 
 .qualidade .qualidade-lista li p {
-    color: #ffffff;
+    color: #000000;
 }
 
 .qualidade .qualidade-lista li h2 {
@@ -350,7 +349,7 @@ ul li {
 }
 
 .call-quali .btn:hover {
-    color: #ffffff;
+    color: #2032f2;
 } 
 
 .call-quali p {
@@ -366,8 +365,8 @@ ul li {
 /* Footer */
 
 .footer {
-    background-color: burlywood;
-    
+    background-color: #ffffff;
+    border-bottom: solid 30px black;
 }
 
 .quebra {
@@ -378,10 +377,13 @@ ul li {
     background-position-y: -190px;
     height: 200px;
     width: 100%;
+    border-top: solid 4px black;
+    border-bottom: solid 4px black;
+
 }
 
 .footer {
-    height: 150px;
+    height: 180px;
 }
 
 .quebra .quote {
@@ -389,16 +391,14 @@ ul li {
     max-width: 400px;
 }
 
-.footer .grid-4 {
-    background-color: #ff652c;
-    height: 150px;
-    padding-top: 10px;
-}
-
-.footer .grid-8 {
-    background-color: #ff652c;
-    height: 150px;
-    text-align: left;
+.footer .oito {
+    background-color: #ffffff;
+    height: 180px;
+    text-align: center;
+    margin: 0 auto;
+    clear: none;
+    float: none;
+    border-bottom: solid 10px black;
 }
 
 .grid-8 .subtitulo {
@@ -413,4 +413,6 @@ ul li {
 .grid-8 p {
     max-width: 350px;
     line-height: 15px;
+    padding-bottom: 20px;
+    margin: auto;
 }
