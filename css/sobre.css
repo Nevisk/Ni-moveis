@@ -18,7 +18,7 @@
 
 body {
     background-color: none;
-    height: 3160px;
+    height: 1100px;
     font-family: Arial;
 }
 
@@ -62,20 +62,20 @@ img {
 }
 
 /* Introdução */
-
 .container, .btn {
     text-align: center;
 }
 
 .introducao {
     width: 100%;
-    height: 500px;
+    height: 250px;
     background: url(../images/begin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -30px;
     margin-top: 100px;
     border-bottom: solid 5px black;
+    margin-bottom: 40px;
 }
 
 .introducao h1 {
@@ -84,7 +84,7 @@ img {
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 20px;
     line-height: 80px;
     letter-spacing: 2px;
 }
@@ -135,9 +135,38 @@ h6 {
     border-color: #2032f2;
     font-weight: 800;
 }
+/* fim introdução */
+
+/* Sobre Intro */
+.sobre {
+    height: 300px;
+    background-color: #5f9ea000;
+    padding-top: 40px;
+    text-align: left;
+    border-left: solid 5px #0000007b;
+    
+}
+
+.text-sobre {
+    height: 200px;
+    width: 50%;
+    background-color: #ff7f5000;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.text-sobre h1, p {
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+.sobre-intro {
+    border-bottom: solid 5px black;
+    padding-bottom: 40px;
+}
+/* fim sobre intro*/
 
 /* moveis */
-
 .moveis {
     padding-top: 50px;
     width: 900px;
@@ -185,126 +214,20 @@ h6 {
     letter-spacing: 0.5px;
     line-height: 15px;
 }
+/* fim moveis */
 
-/*moveis-icones*/
-.armario {
-    background-image: none;
-    padding: none;
-    height: 200px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.balcao {
-    background-image: none;
-    padding: none;
-    height: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.guarda-roupa {
-    background-image: none;
-    padding: none;
-    height: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-/*fim-moveis-icones*/
-
-.call {
-    padding-top: 40px;
-    clear: both;
-}
-
-.call p {
-    color: white;
-    text-transform: uppercase;
-}
-
-ul li {
-    list-style: none;
-}
-
-/* projetos */
-
-.projetos {
-    background-color: #ffffff;
-    height: 1250px;
-    border-top: solid 5px #00000041;
-    border-bottom: solid 5px #00000041;
-}
-
-.projetos .container {
-    margin-top: 50px;
-    padding-top: 50px;
-    background-color: none;
-    align-items: center;
-}
-
-.projetos .container h2 {
-    color: #000000;
-}
-
-.container .grid-8, .grid-16 {
-    padding: 5px;
-} 
-
-.projetos .um {
-    background-image: url(../images/movel\(23\).jpeg);
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.projetos .dois {
-    height: 400px;
-    background-image: url(../images/movel\(6\).jpeg);
-    background-size: cover;
-    background-position: center;
-}
-
-.projetos .container .tres {
-    height: 400px;
-    background-image: url(../images/movel\(24\).jpeg);
-    background-size: cover;
-    margin-top: 20px;
-}
-
-.port .btn {
-    line-height: 100px;
-    border: solid 5px #000000;
-    padding: 10px 30px;
-    text-transform: uppercase;
-    color: #000000;
-    letter-spacing: 2px;
-    font-weight: 600;
-}
-
-.port .btn:hover {
-    color: #2032f2;
-    border-color: #2032f2;
-    font-weight: 800;
-}
-
-.projetos .container ul li:last-child {
-    padding-top: 15px;
-}
-
-.port p {
-    padding-top: 40px;
-    color: black;
-}
 
 /* Qualidade */
+.qualidade {
+    height: 400px;
+}
 
 .qualidade li {
     display: block;
 }
 
 .qualidade .subtitulo {
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
@@ -361,9 +284,9 @@ ul li {
     position: relative;
     top: -20px;
 }
+/* fim qualidade */
 
 /* Footer */
-
 .footer {
     background-color: #ffffff;
     border-bottom: solid 30px black;
@@ -398,7 +321,7 @@ ul li {
     margin: 0 auto;
     border-bottom: solid 10px #000000;
     float: none;
-
+    padding-top: 15px;
 }
 
 .grid-8 .subtitulo {
@@ -416,5 +339,4 @@ ul li {
     padding-bottom: 20px;
     margin: auto;
 }
-
-/*   */
+/* fim footer */
