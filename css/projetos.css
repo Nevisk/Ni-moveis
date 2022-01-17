@@ -18,7 +18,7 @@
 
 body {
     background-color: none;
-    height: 1500px;
+    height: 2500px;
     font-family: Arial;
 }
 
@@ -141,7 +141,7 @@ h6 {
 .moveis {
     padding-top: 50px;
     width: 900px;
-    height: 500px;
+    height: 1500px;
     background-color: none;
 }
 
@@ -230,7 +230,7 @@ ul li {
 
 .projetos {
     background-color: #ffffff;
-    height: 1250px;
+    height: 2900px;
 }
 
 .projetos .container {
@@ -267,6 +267,15 @@ ul li {
     height: 400px;
     background-image: url(../images/movel\(24\).jpeg);
     background-size: cover;
+    margin-top: 20px;
+}
+
+.projetos .quatro {
+    background-image: url(../images/movel\10\).jpeg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin-top: 20px;
 }
 
