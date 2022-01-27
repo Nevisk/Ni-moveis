@@ -18,7 +18,7 @@
 
 body {
     background-color: none;
-    height: 2000px;
+    height: 3160px;
     font-family: Arial;
 }
 
@@ -69,7 +69,7 @@ img {
 
 .introducao {
     width: 100%;
-    height: 250px;
+    height: 500px;
     background: url(../images/begin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,7 +84,7 @@ img {
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 110px;
     line-height: 80px;
     letter-spacing: 2px;
 }
@@ -141,7 +141,7 @@ h6 {
 .moveis {
     padding-top: 50px;
     width: 900px;
-    height: 1000px;
+    height: 500px;
     background-color: none;
 }
 
@@ -230,12 +230,14 @@ ul li {
 
 .projetos {
     background-color: #ffffff;
-    height: 2700px;
+    height: 1250px;
+    border-top: solid 5px #00000041;
+    border-bottom: solid 5px #00000041;
 }
 
 .projetos .container {
-    margin-top: 40px;
-    padding-top: 40px;
+    margin-top: 50px;
+    padding-top: 50px;
     background-color: none;
     align-items: center;
 }
@@ -270,69 +272,6 @@ ul li {
     margin-top: 20px;
 }
 
-.projetos .quatro {
-    background-image: url(../images/movel\(14\).jpeg);
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 20px;
-}
-
-.projetos .cinco {
-    background-image: url(../images/movel\(19\).jpeg);
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 20px;
-}
-
-.projetos .seis {
-    background-image: url(../images/movel\(1\).jpeg);
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 20px;
-}
-
-.projetos .sete {
-    background-image: url(../images/movel\(13\).jpeg);
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 20px;
-}
-
-.projetos .oito {
-    background-image: url(../images/movel\(16\).jpeg);
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 20px;
-}
-
-.projetos .nove {
-    background-image: url(../images/movel\(2\).jpeg);
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 20px;
-}
-
-.projetos .dez {
-    background-image: url(../images/movel\(3\).jpeg);
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 20px;
-}
-
 .port .btn {
     line-height: 100px;
     border: solid 5px #000000;
@@ -358,6 +297,71 @@ ul li {
     color: black;
 }
 
+/* Qualidade */
+
+.qualidade li {
+    display: block;
+}
+
+.qualidade .subtitulo {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.qualidade .qualidade-lista li p {
+    color: #000000;
+}
+
+.qualidade .qualidade-lista li h2 {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.qualidade img {
+    margin: 0 auto;
+}
+
+.qualidade::after {
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background-image: url(../images/lines.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 200px;
+    right: 147px;
+    z-index: -1;
+}
+
+.qualidade-lista li {
+    padding: 30px;
+    text-align: center;
+}
+
+.call-quali {
+    padding: 0px;
+    margin-top: 280px;
+    height: 50px;
+    background-color: none;
+    text-align: bottom;
+}
+
+.call-quali .btn:hover {
+    color: #2032f2;
+} 
+
+.call-quali p {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.call-quali .btn {
+    position: relative;
+    top: -20px;
+}
+
 /* Footer */
 
 .footer {
@@ -366,7 +370,7 @@ ul li {
 }
 
 .quebra {
-    margin-top: 40px;
+    margin-top: 80px;
     background: url(../images/begin.jpg);
     background-size: cover;
     background-repeat: no-repeat;
