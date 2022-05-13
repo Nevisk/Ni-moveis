@@ -136,3 +136,11 @@ img {
     border-color: #2032f2;
     font-weight: 800;
 }
+
+/* Responsivo */
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+    p {
+        color: red;
+    }
+}
