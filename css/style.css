@@ -441,7 +441,45 @@ ul li {
     padding-bottom: 20px;
     margin: auto;
 }
+
+.footer .oito {
+    border-bottom: solid 5px #2e3ff9;
+}
 /* Acaba Sessão Footer */
+/* */
+
+
+
+/* */
+.after-footer {
+    height: 100px;
+    width: 100%;
+    padding-top: 30px;
+
+    background-color: #000000;
+
+    border-bottom: solid 10px #2e3ff9;
+    
+    display: flex;
+}
+/* */
+
+
+
+/* */
+.span {
+    height: 20px;
+    width: 30%;
+    margin-top: 60px;
+
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
 /* */
 
 
