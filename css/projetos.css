@@ -8,7 +8,8 @@
 }
 
 /*
-    Cores teste
+    Cores Testes 
+
     ciano escuro - #5E918A
     aqua claro - #85DED1
     bege claro - #DEB47A
@@ -26,8 +27,10 @@ img {
     display: block;
 }
 
-/* Header */
 
+
+/* */
+/* Começa Sessão Header */
 .header {
     position: fixed;
     top: 0;
@@ -60,9 +63,13 @@ img {
 .header_menu ul li :hover {
     color: #DEB57A;
 }
+/* Acaba Sessão Header */
+/* */
 
-/* Introdução */
 
+
+/* */
+/* Começa Sessão Introdução */
 .container, .btn {
     text-align: center;
 }
@@ -135,9 +142,13 @@ h6 {
     border-color: #2032f2;
     font-weight: 800;
 }
+/* Acaba Sessão Introdução */
+/* */
 
-/* moveis */
 
+
+/* */
+/* Começa Sessão Moveis */
 .moveis {
     padding-top: 50px;
     width: 900px;
@@ -186,7 +197,8 @@ h6 {
     line-height: 15px;
 }
 
-/*moveis-icones*/
+/* */
+/* moveis-icones */
 .armario {
     background-image: none;
     padding: none;
@@ -210,7 +222,8 @@ h6 {
     background-size: cover;
     background-repeat: no-repeat;
 }
-/*fim-moveis-icones*/
+/* fim-moveis-icones */
+/* */
 
 .call {
     padding-top: 40px;
@@ -225,9 +238,13 @@ h6 {
 ul li {
     list-style: none;
 }
+/* Acaba Sessão Moveis */
+/* */
 
-/* projetos */
 
+
+/* */
+/* Começa Sessão Projetos */
 .projetos {
     background-color: #ffffff;
     height: 2700px;
@@ -357,9 +374,13 @@ ul li {
     padding-top: 40px;
     color: black;
 }
+/* Acaba Sessão Projetos */
+/* */
 
-/* Footer */
 
+
+/* */
+/* Começa Sessão Footer */
 .footer {
     background-color: #ffffff;
     border-bottom: solid 30px black;
@@ -413,4 +434,47 @@ ul li {
     margin: auto;
 }
 
-/*   */
+.footer .oito {
+    border-bottom: solid 5px #2e3ff9;
+}
+/* Acaba Sessão Footer */
+/* */
+
+
+
+/* */
+.after-footer {
+    height: 100px;
+    width: 100%;
+    padding-top: 30px;
+
+    background-color: #000000;
+
+    border-bottom: solid 10px #2e3ff9;
+    
+    display: flex;
+}
+/* */
+
+
+
+/* */
+.span {
+    height: 20px;
+    width: 30%;
+    margin-top: 60px;
+
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+/* */
+
+
+
+/* */
+/* Inicia Design Responsivo */
