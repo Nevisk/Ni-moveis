@@ -8,7 +8,8 @@
 }
 
 /*
-    Cores teste
+    Cores Testes
+
     ciano escuro - #5E918A
     aqua claro - #85DED1
     bege claro - #DEB47A
@@ -27,8 +28,10 @@ img {
     max-width: 100%;
 }
 
-/* Header */
 
+
+/* */
+/* Começa Sessão Header */
 .header {
     position: fixed;
     top: 0;
@@ -61,9 +64,13 @@ img {
 .header_menu ul li :hover {
     color: #2e3ff9;
 }
+/* Acaba Sessão Header */
+/* */
 
-/* Introdução */
 
+
+/* */
+/* Começa Sessão Introdução */
 .container, .btn {
     text-align: center;
 }
@@ -136,9 +143,13 @@ h6 {
     border-color: #2032f2;
     font-weight: 800;
 }
+/* Acaba Sessão Introdução */
+/* */
 
-/* moveis */
 
+
+/* */
+/* Começa Sessão Moveis */
 .moveis {
     padding-top: 50px;
     width: 900px;
@@ -187,8 +198,7 @@ h6 {
     line-height: 15px;
 }
 
-
-/*moveis-icones*/
+/* Três exemplos moveis */
 .moveis-icone .armario {
     background-image: none;
     max-width: 300px;
@@ -213,7 +223,7 @@ h6 {
     background-size: cover;
     background-repeat: no-repeat;
 }
-/*fim-moveis-icones*/
+/* Fim exemplos moveis */
 
 .call {
     padding-top: 40px;
@@ -228,9 +238,13 @@ h6 {
 ul li {
     list-style: none;
 }
+/* Acaba Sessão Moveis */
+/* */
 
-/* projetos */
 
+
+/* */
+/* Começa Sessão Projetos */
 .projetos {
     background-color: #ffffff;
     height: 1250px;
@@ -299,9 +313,13 @@ ul li {
     padding-top: 40px;
     color: black;
 }
+/* Acaba Sessão Projetos */
+/* */
 
-/* Qualidade */
 
+
+/* */
+/* Começa Sessão Qualidade */
 .qualidade li {
     display: block;
 }
@@ -364,9 +382,13 @@ ul li {
     position: relative;
     top: -20px;
 }
+/* Acaba Sessão Qualidade */
+/* */
 
-/* Footer */
 
+
+/* */
+/* Começa Sessão Footer */
 .footer {
     background-color: #ffffff;
     border-bottom: solid 30px black;
@@ -419,13 +441,19 @@ ul li {
     padding-bottom: 20px;
     margin: auto;
 }
+/* Acaba Sessão Footer */
+/* */
 
 
-/************************************************************************** Design Responsivo ******************************************************************************/
 
-/************************************************************************** Tamanho Tablet ******************************************************************************/
+/* */
+/* Inicio Design Responsivo */
+/* */
 
 
+
+/* */
+/* Tamanho Tablet */
 @media only screen and (min-width: 768px) and (max-width: 979px) {
 
     .container {
@@ -482,9 +510,13 @@ ul li {
         height: 600px;
     }
 }
+/* Fim Tamanho Tablet */
+/* */
 
-/************************************************************************** Tamanho Smartphone ******************************************************************************/
 
+
+/* */
+/* Tamanho Smartphone */
 @media only screen and (max-width: 767px) {
 
     .container {
@@ -579,7 +611,13 @@ ul li {
     }
 
 }
+/* Fim tamanho Smartphone */
+/* */
 
+
+
+/* */
+/* Ajustes Adicionais */
 @media only screen and (max-width: 600px) {
 
     .call-quali p {
@@ -589,4 +627,5 @@ ul li {
     }
 
 }
-
+/* Fim Ajustes */
+/* */
