@@ -495,9 +495,10 @@ ul li {
 @media only screen and (min-width: 768px) and (max-width: 979px) {
 
     .container {
-        width: 768px;
+        width: 760px;
     }
 
+    
     .grid-1 {width: 28px;}
     .grid-2 {width: 76px;}
     .grid-3 {width: 124px;}
@@ -516,6 +517,7 @@ ul li {
     .grid-16 {width: 748px;}
     .grid-1-3 {width: 236px;}
 
+    
 
     .header {
         height: 125px;
@@ -640,12 +642,20 @@ ul li {
         background: url(../images/begin.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position-y: -130px;
+        background-position-y: -0px;
         height: 230px;
         width: 100%;
         border-top: solid 4px black;
         border-bottom: solid 4px black;
     
+    }
+
+    .footer {
+        height: 190px;
+    }
+
+    .after-footer {
+        height:140px;
     }
 
 }
