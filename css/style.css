@@ -668,10 +668,22 @@ ul li {
 /* Ajustes Adicionais */
 @media only screen and (max-width: 600px) {
 
+    .qualidade {
+        height: 900px;
+    }
+
     .call-quali p {
         text-transform: uppercase;
         color: black;
         padding-top: 120px;
+    }
+
+    .grid-8 .oito {
+        height: 190;
+    }
+
+    .grid-8 .oito p {
+        height: 90px;
     }
 
 }
