@@ -476,6 +476,14 @@ h6 {
         padding-top: 50px;
     }
 
+    .footer .oito {
+        height: 215px;
+    }
+
+    .grid-8 p {
+        line-height: 18px;
+    }
+
 }
 /* Fim Tamanho Tablet */
 /* */
@@ -563,11 +571,11 @@ h6 {
     }
 
     .footer .oito {
-        height: 200px;
+        height: 210px;
     }
 
     .grid-8 p {
-        line-height: 20px;
+        line-height: 18px;
     }
 
     .quebra {
@@ -625,11 +633,11 @@ h6 {
     }
 
     .footer .oito {
-        height: 200px;
+        height: 220px;
     }
 
     .grid-8 p {
-        line-height: 20px;
+        line-height: 18px;
     }
 
     .after-footer {

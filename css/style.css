@@ -549,6 +549,15 @@ ul li {
     .qualidade {
         height: 600px;
     }
+
+    .footer .oito {
+        height: 215px;
+    }
+
+    .grid-8 p {
+        line-height: 18px;
+    }
+
 }
 /* Fim Tamanho Tablet */
 /* */
@@ -659,11 +668,11 @@ ul li {
     }
 
     .footer .oito {
-        height: 200px;
+        height: 210px;
     }
 
     .grid-8 p {
-        line-height: 20px;
+        line-height: 18px;
     }
 
 }
@@ -695,11 +704,11 @@ ul li {
     }
 
     .footer .oito {
-        height: 200px;
+        height: 220px;
     }
 
     .grid-8 p {
-        line-height: 20px;
+        line-height: 18px;
     }
 
 }
