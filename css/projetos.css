@@ -410,7 +410,7 @@ ul li {
 
 .footer .oito {
     background-color: #ffffff;
-    height: 180px;
+    height: 190px;
     text-align: center;
     margin: 0 auto;
     border-bottom: solid 10px #000000;
@@ -627,6 +627,14 @@ ul li {
         padding-top: 320px;
     }
 
+    .footer .oito {
+        height: 200px;
+    }
+
+    .grid-8 p {
+        line-height: 20px;
+    }
+
     .quebra {
         margin-top: 80px;
         background: url(../images/begin.jpg);
@@ -667,6 +675,14 @@ ul li {
         border-top: solid 4px black;
         border-bottom: solid 4px black;
     
+    }
+
+    .footer .oito {
+        height: 200px;
+    }
+
+    .grid-8 p {
+        line-height: 20px;
     }
 
     .after-footer {

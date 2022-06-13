@@ -562,6 +562,14 @@ h6 {
         padding-top: 320px;
     }
 
+    .footer .oito {
+        height: 200px;
+    }
+
+    .grid-8 p {
+        line-height: 20px;
+    }
+
     .quebra {
         margin-top: 80px;
         background: url(../images/begin.jpg);
@@ -614,6 +622,14 @@ h6 {
 
     .sobre {
         height:600px;
+    }
+
+    .footer .oito {
+        height: 200px;
+    }
+
+    .grid-8 p {
+        line-height: 20px;
     }
 
     .after-footer {

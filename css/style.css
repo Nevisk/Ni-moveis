@@ -658,6 +658,14 @@ ul li {
         height:140px;
     }
 
+    .footer .oito {
+        height: 200px;
+    }
+
+    .grid-8 p {
+        line-height: 20px;
+    }
+
 }
 /* Fim tamanho Smartphone */
 /* */
@@ -684,6 +692,14 @@ ul li {
 
     .grid-8 .oito p {
         height: 90px;
+    }
+
+    .footer .oito {
+        height: 200px;
+    }
+
+    .grid-8 p {
+        line-height: 20px;
     }
 
 }
