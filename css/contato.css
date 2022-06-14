@@ -263,7 +263,7 @@ img {
     }
 
     .mensagem {
-        margin-top: 80px;
+        margin-top: 130px;
     }
 
     .mensagem a {
@@ -271,7 +271,7 @@ img {
     }
 
     body {
-        height: 880px;
+        height: 900px;
     }
 
 }
@@ -285,7 +285,7 @@ img {
 @media only screen and (max-width: 600px) {
 
     .mensagem {
-        margin-top: 100px;
+        margin-top: 140px;
     }
 
     .mensagem a {
@@ -293,7 +293,7 @@ img {
     }
 
     body {
-        height: 900px;
+        height: 920px;
     }
 
 }
