@@ -199,7 +199,7 @@ img {
     .grid-1-3 {width: 236px;}
 
     .mensagem {
-        margin-top: 40px;
+        margin-top: 50px;
         padding-bottom: 10px;
     }
 
@@ -263,7 +263,7 @@ img {
     }
 
     .mensagem {
-        margin-top: 50px;
+        margin-top: 80px;
     }
 
     .mensagem a {
@@ -271,7 +271,7 @@ img {
     }
 
     body {
-        height: 850px;
+        height: 880px;
     }
 
 }
@@ -283,6 +283,18 @@ img {
 /* */
 /* Ajustes Adicionais */
 @media only screen and (max-width: 600px) {
+
+    .mensagem {
+        margin-top: 100px;
+    }
+
+    .mensagem a {
+        align-items: center;
+    }
+
+    body {
+        height: 900px;
+    }
 
 }
 /* Fim Ajustes */
