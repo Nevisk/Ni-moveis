@@ -362,6 +362,10 @@ h6 {
     padding-bottom: 20px;
     margin: auto;
 }
+
+.footer .oito {
+    border-bottom: solid 5px #2e3ff9;
+}
 /* Acaba Sessão Footer */
 /* */
 
@@ -477,7 +481,7 @@ h6 {
     }
 
     .footer .oito {
-        height: 215px;
+        height: 190px;
     }
 
     .grid-8 p {
@@ -571,7 +575,7 @@ h6 {
     }
 
     .footer .oito {
-        height: 205px;
+        height: 190px;
     }
 
     .grid-8 p {
@@ -633,7 +637,7 @@ h6 {
     }
 
     .footer .oito {
-        height: 215px;
+        height: 190px;
     }
 
     .grid-8 p {
