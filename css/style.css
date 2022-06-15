@@ -610,7 +610,7 @@ ul li {
 
     .introducao {
         margin-top: 0px;
-        height: 650px;
+        height: 600px;
         background-position: center;
     }
 
@@ -692,6 +692,10 @@ ul li {
 /* */
 /* Ajustes Adicionais */
 @media only screen and (max-width: 600px) {
+
+    .introducao {
+        height: 600px;
+    }
 
     .qualidade {
         height: 900px;
