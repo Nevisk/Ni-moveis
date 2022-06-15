@@ -481,7 +481,7 @@ h6 {
     }
 
     .footer .oito {
-        height: 190px;
+        height: 210px;
     }
 
     .grid-8 p {
@@ -575,7 +575,7 @@ h6 {
     }
 
     .footer .oito {
-        height: 190px;
+        height: 210px;
     }
 
     .grid-8 p {
@@ -593,6 +593,10 @@ h6 {
         border-top: solid 4px black;
         border-bottom: solid 4px black;
     
+    }
+
+    .grid-8 .oito {
+        height: 210px;
     }
 
 }
@@ -629,7 +633,7 @@ h6 {
     }
 
     .gird-8 .oito {
-        height: 220px;
+        height: 210px;
     }
 
     .sobre {
@@ -637,7 +641,7 @@ h6 {
     }
 
     .footer .oito {
-        height: 190px;
+        height: 210px;
     }
 
     .grid-8 p {
