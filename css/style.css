@@ -551,7 +551,7 @@ ul li {
     }
 
     .footer .oito {
-        height: 190px;
+        height: 200px;
     }
 
     .grid-8 p {
@@ -680,6 +680,9 @@ ul li {
         line-height: 18px;
     }
 
+    .grid-8 .oito {
+        height: 210px;
+    }
 }
 /* Fim tamanho Smartphone */
 /* */
@@ -701,7 +704,7 @@ ul li {
     }
 
     .grid-8 .oito {
-        height: 200px;
+        height: 210px;
     }
 
     .grid-8 .oito p {
@@ -709,7 +712,7 @@ ul li {
     }
 
     .footer .oito {
-        height: 200px;
+        height: 210px;
     }
 
     .grid-8 p {
