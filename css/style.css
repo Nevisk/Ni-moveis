@@ -626,7 +626,7 @@ ul li {
     }
 
     .qualidade {
-        height: 880px;
+        height: 900px;
     }
 
     .qualidade::after {
@@ -640,6 +640,11 @@ ul li {
         margin: 0px;
     }
     
+    .call-quali {
+        margin-top: 300px;
+
+    }
+
     .call-quali p {
         text-transform: uppercase;
         color: black;
