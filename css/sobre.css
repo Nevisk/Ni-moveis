@@ -27,6 +27,20 @@ img {
     display: block;
 }
 
+::-webkit-scrollbar {
+    background-color: #000000;
+    border-left: solid black;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2e3ff9;
+    border-radius: 5px;
+    height: 100px;
+}
+/* Fim Pré Sets */
+/* */
+
 
 
 /* */
